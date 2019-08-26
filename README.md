@@ -11,7 +11,7 @@ será gerado e deverá ser adicionado ao cabeçalho de cada requisição efetuad
 
 Existem 3 rotas:
 
-- http://<ip>:<port>/java-api-restful/api/auth/register
+- http://IP_HOST:PORT_HOST/java-api-restful/api/auth/register
 
 Rota para efetuar o cadastro. Um objeto JSON é aguardado contendo o nome, email e senha do usuário.
 
@@ -33,7 +33,7 @@ Response:
 }
 ```
 
-- http://<ip>:<port>/java-api-restful/api/auth/authenticate
+- http://IP_HOST:PORT_HOST/java-api-restful/api/auth/authenticate
 
 Rota para autenticação. Um objeto JSON é aguardado contendo o email e senha do usuário. Se existir um
 usuário com essas credenciais, um token será gerado e retornado ao usuário. Esse token será utilizado
@@ -56,7 +56,7 @@ Response:
 }
 ```
 
-- http://<ip>:<port>/java-api-restful/api/users
+- http://IP_HOST:PORT_HOST/java-api-restful/api/users
 
 Recurso disponível somente para um usuário autenticado e com um token válido.O token deve ser informado no
 cabeçalho da requisição. Se o token for válido, uma lista com os usuários cadastrados será retornado.
