@@ -1,9 +1,9 @@
-#JAVA API RESTful + Jersey + Mongodb
+# JAVA API RESTful + Jersey + Mongodb
 
 API RESTful em java utilizando o framework Jersey e o banco de dados Mongodb, um banco de dados
 orientado a documentos que servirá para armazenar os usuários e os tokens.
 
-###Funcionamento
+### Funcionamento
 
 O usuário primeiramente efetua o cadastro, informando seu nome, email e senha. Após o cadastro,
 o usuário deverá se autenticar para começar a consumir os recursos. Durante a autenticação, um token
@@ -27,7 +27,7 @@ Request:
 Response:
 ```json
 {
-    name": "Leonardo Barbosa",
+    "name": "Leonardo Barbosa",
     "email": "leonardo@gmail.com",
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJhdXRoMCIsImV4cCI6MTU2NjkzNjM3MX0.xInVrNJ-QgJS0_tMsN5xN4nNfdv8p-bSu5_yPsZrv6g"
 }
@@ -84,7 +84,7 @@ Response:
 ]
 ```
 
-###Dependências
+### Dependências
 
 - **Jersey:** Framework para construção da API RESTful
 - **Mongodb:** Biblioteca para manipulação de coleções (consulta, inserção, atualização e remoção de dados) no Mongodb
