@@ -1,0 +1,6 @@
+{
+    "mongodb": {
+        "uri": "mongodb+srv://leonardo:1q2w3e@javaapi-w6oqo.mongodb.net/javaapiexample?retryWrites=true&w=majority",
+        "database": "javaapiexample"
+    }
+}
